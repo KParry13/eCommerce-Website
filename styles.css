@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI';
+    word-spacing: 50;
+
+}
+
+header {
+
+}
+
+nav a {
+/* anchor tag and children within the nav will have this effect */
+/* text-decoration=none (underline anything dissappears */
+}
+
+nav ul {
+    /* list-style-type: none;
+    position: absolute;
+    top: ;
+    left: 1rem; */
+}
+
+nav li {
+    /* display: inline;
+    margin-left: .5rem; */
+}
+
+main {
+    /* margin:1rem auto;
+    width: 80%; */
+}
+
+main section {
+    /* margin-top: 6rem;
+    padding: 2rem; */
+}
+
+.home img {
+    /* float: left;
+    margin-right: 3rem; */
+}
+
+footer {
+    /* text-align: ;
+    background-color: ; 
+    padding: ;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0; */
+    
+}
+
+.product-card {
+    background-color: red;
+    border: 2px solid;
+
+}
+
+hr {
+    border: 1px solid black;
+    width: ;
+  }
+  
