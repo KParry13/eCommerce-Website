@@ -12,66 +12,112 @@ html {
 }
 
 body {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     word-spacing: 50;
 
 }
 
-header {
-
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-nav a {
-/* anchor tag and children within the nav will have this effect */
-/* text-decoration=none (underline anything dissappears */
+.center-items {
+    align-items: center;
+    gap: 5px;
+}
+.navlogo {
+    height: 30px;
 }
 
-nav ul {
-    /* list-style-type: none;
-    position: absolute;
-    top: ;
-    left: 1rem; */
+.search-bar {
+    height: 10px;
 }
-
-nav li {
-    /* display: inline;
-    margin-left: .5rem; */
-}
-
-main {
-    /* margin:1rem auto;
-    width: 80%; */
-}
-
-main section {
-    /* margin-top: 6rem;
-    padding: 2rem; */
-}
-
-.home img {
-    /* float: left;
-    margin-right: 3rem; */
-}
-
-footer {
-    /* text-align: ;
-    background-color: ; 
-    padding: ;
-    position: fixed;
+.main-logo {
     width: 100%;
-    left: 0;
-    bottom: 0; */
-    
+    height: 500px;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;    
+}
+nav li {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.company-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hr-1 {
+    border: 1px solid black;
+}
+
+.about-img-left {
+    width: 300px;
+    height: 440px;
+}
+
+.about-img-right {
+    width: 410px;
+    height: 558px;
+}
+.product-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.hr-2 {
+    border: 1px solid black;
+    width: 30px;
+}
+
+.product-image {
+    width: 260px;
+    height: 240px;
 }
 
 .product-card {
-    background-color: red;
-    border: 2px solid;
-
+    display: flex;
+    flex-direction: column;
+    
+}
+.product-card p {
+    overflow-wrap: break-word;
+    max-width: 260px;
+}
+.product-label {
+    display: flex;
+    justify-content: space-between;
+    max-width: 260px;
+    
 }
 
-hr {
-    border: 1px solid black;
-    width: ;
-  }
-  
+.product-label a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer-container {
+    background-color: #BF7631;
+    display: flex;
+    flex-direction: column;
+}
+.order-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-container img {
+    height: 50px;
+}
