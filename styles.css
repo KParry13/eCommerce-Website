@@ -49,11 +49,13 @@ nav a {
 nav ul {
     list-style-type: none;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;  
+    color: black;
 }
 nav li {
     margin: 1rem;
     padding: 1rem;
+    
 }
 
 .company-logo {
@@ -83,6 +85,13 @@ nav li {
     margin-top: 3rem;
 }
 
+.hr-4 {
+    border: 1.5px solid black;
+    width: 120%;
+    margin-bottom: 0.3rem;
+    margin-top: .5rem;
+}
+
 .main-container {
     margin-left: 8rem;
 }
@@ -91,33 +100,34 @@ nav li {
     margin-top: 6rem;
     font-size: 3em;
 }
+
+/* I tried with the about section with flexbox. In my head I know what I want to do but how I am trying to make it work wasnt working. */
 .info-1 {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-start; */
 }
 
 .info-2 {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     
 }
-
-
+ 
 .about-img-left {
     width: 300px;
     height: 440px;
     margin-top: 3rem;
-    display: flex;
-    justify-items: end;
+    /* display: flex;
+    justify-items: end; */
 }
 
 .about-img-right {
     width: 410px;
     height: 558px;
-    display: flex;
+    /* display: flex;
     flex-direction: row-reverse;
-    justify-items: end;
+    justify-items: end; */
 
 }
 .product {
@@ -149,6 +159,7 @@ nav li {
     display: flex;
     justify-content: space-between;
     max-width: 260px;
+    margin-top: 0.5rem;
     
 }
 
@@ -156,6 +167,18 @@ nav li {
     text-decoration: none;
     color: black;
 }
+.product-suggestion {
+    display: flex;
+    justify-content: space-between;
+    max-width: 260px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.product-learn {
+    color: #BF7631;
+}
+
 
 .send {
     display: flex;
